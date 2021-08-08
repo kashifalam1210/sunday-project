@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+   
+    <title>Calculator</title>
+    <script src="calculator.js" defer></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="src/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/favicons/favicon-16x16.png">
+    <link rel="manifest" href="src/favicons/site.webmanifest">
+    <link rel="mask-icon" href="src/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="src/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-config" content="src/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="src/css/calculator.css">
+  </head>
+
+  <body>
+
+    <main>
+      <div class="calculator">
+        <div class="calculatorDisplay">
+          <div class="prevOperand" data-prevOperand></div>
+          <div class="currOperand" data-currOperand>0</div>
+        </div>
+        <div class="calculatorKeys">
+          <button class="allClearBtn" data-allClear>AC</button>
+          <button class="delBtn" data-del>DEL</button>
+          <button class="operatorBtn" data-operator>÷</button>
+          <button data-number>7</button>
+          <button data-number>8</button>
+          <button data-number>9</button>
+          <button class="operatorBtn" data-operator>×</button>
+          <button data-number>4</button>
+          <button data-number>5</button>
+          <button data-number>6</button>
+          <button class="operatorBtn" data-operator>-</button>
+          <button data-number>1</button>
+          <button data-number>2</button>
+          <button data-number>3</button>
+          <button class="operatorBtn" data-operator>+</button>
+          <button class="zeroBtn" data-number>0</button>
+          <button data-number>.</button>
+          <button class="equalsBtn" data-equals>=</button>
+        </div>
+      </div>
+    </main>
+
+    
+
+  </body>
+
+</html>
